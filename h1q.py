@@ -7,7 +7,7 @@ for i in l:
         m.append(i)
 if len(m)>0:
     for i in range(len(m)-1):
-        d+=m[i]+" "
-    print(d+m[-1])
+        n+=m[i]+" "
+    print(n+m[-1])
 else:
     print("unique")
